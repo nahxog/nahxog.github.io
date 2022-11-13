@@ -70,19 +70,27 @@
 
   @keyframes typing {
     from { width: 0 }
-    to { width: 50% }
+    to { width: 200px }
   }
 
   .typed-out{
     position: relative;
-    font-size:10vw;
     font-family: 'Trebuchet MS', sans-serif; 
     overflow: hidden;
     border-right: 2px solid red;
     white-space: nowrap;
-    font-size: 1.6rem;
+    font-size: 30px;
     width: 0;
     animation: typing 2.5s forwards;
-    margin-left: 105px;
+    margin-left: 90px;
     margin-top: 90px;
+}
+
+  .parag {
+    font-size: 10px;  
+    font-family: 'Trebuchet MS', sans-serif; 
+    text-align: center; 
+   margin-top: 40px;
+   align-items: center;
+   position: relative;
 }
