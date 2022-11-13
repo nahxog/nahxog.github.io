@@ -70,7 +70,7 @@
 
   @keyframes typing {
     from { width: 0 }
-    to { width: 85% }
+    to { width: 50% }
   }
 
   .typed-out{
@@ -83,6 +83,6 @@
     font-size: 1.6rem;
     width: 0;
     animation: typing 2.5s forwards;
-    margin-left: 50px;
+    margin-left: 105px;
     margin-top: 90px;
 }
